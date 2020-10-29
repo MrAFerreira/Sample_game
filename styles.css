@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: VCR, Arial, Helvetica, sans-serif;
+  background-color: dodgerblue;
+  background-image: url('/imgs/nautilus-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+
+canvas {
+  border-radius: 20px;
+  border: 5px solid rgb(172, 107, 0);
+}
