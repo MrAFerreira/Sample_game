@@ -33,12 +33,12 @@ class Controller {
     window.addEventListener('keydown', (event) => {
       switch (event.key) {
         case 'w':
-          this.player.positionY += -3;
+          this.player.positionY += -1;
 
           this.player.direction = 'north';
           break;
         case 's':
-          this.player.positionY += 3;
+          this.player.positionY += 1;
           this.player.direction = 'south';
           this.player.animationToggle = !this.player.animationToggle;
           break;
